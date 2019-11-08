@@ -11,6 +11,12 @@ When you will visit us in our office, we will go through the code together and l
 Feel free to get creative and come up with something cool beyond what's defined by the assignment if you want to impress us (we're sure you will! 🚀) 
 
 
+## Prerequisites
+
+Install Node.js, instructions [here](https://nodejs.org/en/download/)
+
+Install yarn, instructions [here](https://yarnpkg.com/lang/en/docs/install/)
+
 ## Available Scripts
 
 In the project directory, you can run:
