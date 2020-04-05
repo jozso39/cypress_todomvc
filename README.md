@@ -1,12 +1,12 @@
-# Assignment complete!
+# Work example
 
 <p align="center">
 <img src="https://www.productboard.com/wp-content/themes/productboard/public/images/logo-pb-small.svg">
 </p>
 
-Since you asked to get impressed, I made two tests using Cypress and worked with the index.js file of the page to lightly demonstrate my in-browser conditional automation method.
+This is an assignment result I was doing when applying to work at productboard. Unfortunately I didn't get the job but I think this work represents what I can do and how. 
 
-I don't know the practices you use in ProductBoard about using Cypress, so I created one complex spec `todomvc_show-off_spec` to show off and one robust test `todomvc_solid_spec`.
+The assignment was: create automated e2e tests for todoMVC app. I created 2 and a half of solutions. 2 being 2 different test specs. One is complex spec `todomvc_show-off_spec` to show off my skills and the second one is a robust solution `todomvc_solid_spec`.
 
 ## Cypress show-off test
 
@@ -20,7 +20,7 @@ I also created some custom commands so I wouldnt repeat myself too often and mak
 
 ## Cypress solid test
 
-This test is different from the show-off one, it will always run the same way and it has less logic in it. This test is a good candidate for applying visual testing using Applitools Eyes or Percy.io that would test the visual side of the app. I can do that as well, but I dont think it would be worth the time to do it on such a small app, so you just gonna have to trust me on that.
+This test is different from the show-off one, it will always run the same way and it has less logic in it. This test is a good candidate for applying visual testing using Applitools Eyes or Percy.io that would test the visual side of the app. I can do that as well, but I don't think it would be worth the time to do it on such a small app, so you just gonna have to trust me on that.
 
 It doesnt use any backflips and I belive it is in line with Cypress best practices.
 
@@ -28,13 +28,11 @@ It doesnt use any backflips and I belive it is in line with Cypress best practic
 
 I added some code into `src/index.js` to demonstrate this method of mine, that can make it easier to test a web app manually. It is very usefull for multi-step forms, login pages and multi-page applications.
 
-It doesnt have much impact on this todoMVC app though. Here, it works more like a keyboard shortcut upgrade of the page. To see the avalible shortcuts, press `CTRL+ALT+F1` while you have focus anywhere on the page. (the shortcut is different for Mac, sorry, I dont know what it is...)
+It doesnt have much impact on this todoMVC app though. Here, it works more like a keyboard shortcut upgrade of the page. To see the avalible shortcuts, press `CTRL+ALT+F2` while you have focus anywhere on the page. (the shortcut is different for Mac, sorry, I dont know what it is...)
 
 The code doesnt modify the page and it doesnt do anything until some of the keyboard shortcut are pressed. Also this can be used without changing `index.js` or any app files, the usual way is using a browser extention.
 
 ---
-
-I hope you can give me feedback on these tests and find errors I made. I would like to know the differences between ProductBoard test-writing metodologies and mine.
 
 ## Prerequisites
 
@@ -62,3 +60,4 @@ Opens Cypress GUI app
 ### `yarn cypress:run`
 
 Runs Cypress tests in headless mode
+
